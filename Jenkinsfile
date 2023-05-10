@@ -75,8 +75,7 @@ pipeline {
                         echo "Post Build success"
                     }
                 }
-         stage("Final build") 
-               stage("Test final") {
+                stage("Final build") {
                     agent any
                     steps {
                         echo "Build final success"
