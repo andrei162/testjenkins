@@ -81,9 +81,10 @@ pipeline {
                     agent any
                     steps {
                     echo "Build final success"
-                    }}
+                    }
                  }
             }
         }
     }
+}
 }
