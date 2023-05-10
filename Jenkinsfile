@@ -76,10 +76,10 @@ pipeline {
                     }
                 }
          stage("Final build") 
-                  stage("Test final") {
+               stage("Test final") {
                     agent any
                     steps {
-                    echo "Build final success"
+                        echo "Build final success"
                     }
                  }
             }
